@@ -14,6 +14,9 @@ a_letter = 'a'
 # print(ord(a_letter))
 # print(chr(97))
 
+a_letter_ord = ord(a_letter)
+print(a_letter_ord)
+
 cyrillic_letter = 'Ї'
 # print(ord(cyrillic_letter))
 # print(chr(1031))
