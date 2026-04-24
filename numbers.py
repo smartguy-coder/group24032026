@@ -35,6 +35,9 @@ float_number1 = 655.3156
 float_number2 = 0.2
 float_number_summa = float_number1 + float_number2
 print(float_number_summa)
+etalon = 655.5156
+print(etalon == float_number_summa)
+
 float_number_summa = round(float_number_summa, 2)
 print(float_number_summa)
 
@@ -55,10 +58,42 @@ print(whole_part)
 rest = 10 % 3
 print(rest)
 
+power = 4 ** 2
+print(power)
+
+chain = 2 + 6 + 7 - (5 + 56) * 5
+print(chain)
+
+apples = 5
+pears = 4
+if apples == pears:
+    print('pears = apples')
+elif apples > pears :
+    print('apples > pears')
+else:
+    print('pears not equal apples')
+
+# n1 ==  n2  - string and number
+# n1 !=  n2  - string and number
+
+# n1 >  n2
+# n1 <  n2
+# n1 <=  n2
+# n1 >=  n2
 
 
+'5'
 
+user_input = input("enter number")
 
+number = float(user_input)
+print(number)
+
+value = 555
+two_and_two = 2+2
+dynamic = f'value in database {value} grn:: {2+2=}'
+
+print(dynamic)
 
 
 
