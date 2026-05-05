@@ -52,4 +52,4 @@ total_cost_causes = cola_quantity * prices.CAUSE_PRICE
 total_cost = total_cost_cola + total_cost_burger + total_cost_pizza + total_cost_causes
 
 
-put_warning()
+# put_warning()
