@@ -12,7 +12,7 @@ admin_data = {
     "password": '123',
     "salary": 2500,
     "hobbies": [
-        'тенніс',
+        'теніс',
         'soccer'
     ],
     'is_married': True,
@@ -71,6 +71,12 @@ admin_extra_data = {
     'pet': "dog",
     "salary": 6000,
 }
+
+# rate = 49.0
+# rate = round(rate, -2)
+# print(rate)
+#
+# 100/rate
 
 # update existing
 # admin_data.update(admin_extra_data)
