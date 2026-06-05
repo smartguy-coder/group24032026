@@ -6,6 +6,16 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 import config
+import jinja2
+
+
+def create_trip_info(data: dict) -> str:
+    template_loader = jinja2.FileSystemLoader(searchpath='./')
+    template_env = jinja2.Environment(loader=template_loader)
+    template_file = 'templates/trip.html'
+    template = template_env.get_template(template_file)
+    output = template.render(data)
+    return output
 
 
 def send_email(
