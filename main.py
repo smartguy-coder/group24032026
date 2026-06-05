@@ -9,10 +9,13 @@ def main():
         'price_per_person': 6000054,
         'total_price': 6000,
         'discount': 0,
-        'final_price': 6000
+        'final_price': 6000,
+        'people': ['Akim', 'Pavlo', 'Taras', 'Oleg']
     }
     mail_body = utils.create_trip_info(trip_data)
     print(mail_body)
+
+
 
     utils.send_email(
         recipients=['test_hillel_api_mailing@ukr.net', 'awa123awa@ukr.net'],
